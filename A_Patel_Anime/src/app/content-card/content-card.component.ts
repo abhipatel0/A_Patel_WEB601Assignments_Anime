@@ -41,4 +41,4 @@ export class ContentCardComponent {
 }
 
 
-// content badli kadh movie name and all {id sivay badhu}, then commit  
+ 
