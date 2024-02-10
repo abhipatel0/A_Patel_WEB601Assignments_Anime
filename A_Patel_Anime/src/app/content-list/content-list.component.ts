@@ -43,6 +43,42 @@ export class ContentListComponent implements OnInit {
         imgURL:"https://upload.wikimedia.org/wikipedia/en/c/c3/OnePunchMan_manga_cover.png",
         type:"Action",
         tags: ["action", "drama"]
+      },
+      {
+        id: 3,
+        title: "Jujutsu Kaisen",
+        description:"Jujutsu Kaisen is a Japanese manga series written and illustrated by Gege Akutami. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since March 2018, with its chapters collected and published in 25 tankōbon volumes as of January 2024.",
+        creator:"Gege Akutami",
+        imgURL:"https://upload.wikimedia.org/wikipedia/en/4/46/Jujutsu_kaisen.jpg",
+        type:"Adventure",
+        tags: ["adventure", "dark fantesy"]
+      },
+      {
+        id: 4,
+        title: "Death Note",
+        description:"Death Note (stylized in all caps) is a Japanese manga series written by Tsugumi Ohba and illustrated by Takeshi Obata. It was serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from December 2003 to May 2006, with its chapters collected in 12 tankōbon volumes.",
+        creator:"Tsugumi Ohba",
+        imgURL:"https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1.jpg",
+        type:"Mystery",
+        tags: ["action", "mystery"]
+      },
+      {
+        id: 5,
+        title: "Tokyo Ghoul",
+        description:"Tokyo Ghoul (Japanese: 東京喰種トーキョーグール, Hepburn: Tōkyō Gūru) is a Japanese dark fantasy manga series written and illustrated by Sui Ishida. It was serialized in Shueisha's seinen manga magazine Weekly Young Jump from September 2011 to September 2014, with its chapters collected in 14 tankōbon volumes",
+        creator:"	Sui Ishida",
+        imgURL:"https://upload.wikimedia.org/wikipedia/en/e/e5/Tokyo_Ghoul_volume_1_cover.jpg",
+        type:"Dark fantasy",
+        tags: ["action", "dark fantasy"]
+      },
+      {
+        id: 6,
+        title: "Attack on Titan",
+        description:"Attack on Titan (Japanese: 進撃の巨人, Hepburn: Shingeki no Kyojin, lit. 'The Advancing Giant') is a Japanese manga series written and illustrated by Hajime Isayama. It is set in a world where humanity is forced to live in cities surrounded by three enormous walls that protect them from gigantic man-eating humanoids referred to as Titans.",
+        creator:"	Hajime Isayama",
+        imgURL:"https://upload.wikimedia.org/wikipedia/en/d/d6/Shingeki_no_Kyojin_manga_volume_1.jpg",
+        type:"Action",
+        tags: ["action", "dark fantasy"]
       }
     ];
   }
