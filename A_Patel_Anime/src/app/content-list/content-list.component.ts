@@ -4,11 +4,12 @@ import { Content } from '../helper-files/content-interface';
 import { ContentCardComponent } from '../content-card/content-card.component';
 import { FilterContentPipe } from '../filter-content.pipe';
 import { FormsModule } from '@angular/forms';
+import { HoverAffectDirective } from '../hover-affect.directive';
 
 @Component({
   selector: 'app-content-list',
   standalone: true,
-  imports: [CommonModule, ContentCardComponent, FilterContentPipe, FormsModule],
+  imports: [CommonModule, ContentCardComponent, FilterContentPipe, FormsModule, HoverAffectDirective],
   templateUrl: './content-list.component.html',
   styleUrl: './content-list.component.scss'
 })
@@ -72,7 +73,7 @@ export class ContentListComponent implements OnInit {
         title: "Death Note",
         description:"Death Note (stylized in all caps) is a Japanese manga series written by Tsugumi Ohba and illustrated by Takeshi Obata. It was serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from December 2003 to May 2006, with its chapters collected in 12 tankōbon volumes.",
         creator:"Tsugumi Ohba",
-        imgURL:"https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1.jpg",
+        imgURL:"",
         type:"Action",
         tags: ["action", "mystery"]
       },
