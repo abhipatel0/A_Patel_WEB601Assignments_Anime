@@ -1,0 +1,17 @@
+<input type="text" [(ngModel)]="searchTitle" placeholder="Enter title">
+<button (click)="checkContentExists()">Check Anime Existence</button>
+
+<p [ngStyle]="{'color': contentExists ? 'green' : 'red'}">{{ message }}</p>
+
+<section>
+<h1>Empty</h1>
+<app-content-card *ngFor="let contentItem of contentItems | filterContent: ''" [contentItem]="contentItem"></app-content-card>
+</section>
+<section>
+<h1>Adventure</h1>
+<app-content-card *ngFor="let contentItem of contentItems | filterContent: 'Adventure'" [contentItem]="contentItem"></app-content-card>
+</section>
+<section>
+<h1>Action</h1>
+<app-content-card *ngFor="let contentItem of contentItems | filterContent: 'Action'" [contentItem]="contentItem"></app-content-card>
+</section>
